@@ -1,0 +1,220 @@
+:root {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    --bg1: #1B1825;
+    --purple: #8552EB;
+    --pink1: #E100FF;
+    --pink2: #8E01FF;
+}
+
+.navbar {
+    background-color: var(--bg1);
+}
+
+.nav-item .nav-link {
+    color: white;
+}
+
+.nav-item .nav-link:hover {
+    color: gray;
+}
+
+[class*="container2"] {
+    background-color: var(--bg1);
+}
+
+#Animated-text {
+    color: var(--purple);
+}
+
+#button1 {
+    background: linear-gradient(to right, var(--pink1), var(--pink2));
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+    animation: animated-button 1s infinite;
+}
+
+#button1:hover {
+    box-shadow: 0 0 5px 0 rgba(255, 105, 180, 0.7);
+    transform: scale(1.1);
+    color: white;
+}
+
+#left-button {
+    background: linear-gradient(to right, var(--pink1), var(--pink2));
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+    animation: animated-button 1s infinite;
+}
+
+#left-button:hover {
+    z-index: 1;
+    box-shadow: 0 0 5px 0 rgba(255, 105, 180, 0.7);
+    transform: scale(1.1);
+    color: white;
+}
+
+#Right-button {
+    background: linear-gradient(to right, var(--pink1), var(--pink2));
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+    animation: animated-button 1s infinite;
+}
+
+#Right-button:hover {
+    z-index: 1;
+    box-shadow: 0 0 5px 0 rgba(255, 105, 180, 0.7);
+    transform: scale(1.1);
+    color: white;
+}
+
+@keyframes animated-button {
+    0% {
+        box-shadow: 0 0 10px 0 rgba(255, 105, 180, 0.7);
+    }
+
+    100% {
+        box-shadow: 0 0 10px 0 rgba(255, 105, 180, 0.7);
+    }
+}
+
+[class*="container3"] {
+    background: linear-gradient(to bottom, #1E1C29, #35183D);
+}
+
+p {
+    color: gray;
+}
+
+[class*="col-border"] {
+    max-width: 500px !important;
+    text-align: center;
+    border: 2px solid var(--purple);
+    background-color: #181621;
+    animation: animated-border1 1s infinite;
+}
+
+@keyframes animated-border1 {
+    0% {
+        box-shadow: 0px 0px 10px 0 var(--purple);
+    }
+
+    100% {
+        box-shadow: 0px 0px 10px 0 var(--purple);
+    }
+}
+
+.p-border p {
+    color: white;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.p-border p img {
+    width: 20px;
+}
+
+.empty-box {
+    border: 2px solid #374982;
+    border-radius: 5px;
+    animation: animated-border2 1s infinite;
+}
+
+@keyframes animated-border2 {
+    0% {
+        box-shadow: 0px 0px 10px 0 #374982;
+    }
+
+    100% {
+        box-shadow: 0px 0px 10px 0 #374982;
+    }
+}
+
+[class*="container4"] {
+    background: linear-gradient(to bottom, #1E1C29, #221D2F);
+}
+
+.p-border2 p {
+    padding: 5px;
+    color: var(--pink2);
+    display: inline-block;
+    text-shadow: 0px 0px 10px 0 var(--pink2);
+    animation: animated-langs 1s infinite;
+}
+
+@keyframes animated-langs {
+    0% {
+        text-shadow: 0px 0px 10px var(--pink2), 0px 0px 10px var(--pink2), 0px 0px 10px var(--pink2);
+    }
+
+    100% {
+        text-shadow: 0px 0px 10px var(--pink2), 0px 0px 10px var(--pink2), 0px 0px 10px var(--pink2);
+    }
+}
+
+#cards {
+    border: 2px solid #181621;
+    transition: 500ms ease-in-out;
+    animation: animated-card 1s infinite;
+}
+
+#cards:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+
+@keyframes animated-card {
+    0% {
+        box-shadow: 10px 10px 20px 0 #181621;
+    }
+
+    100% {
+        box-shadow: 10px 10px 20px 0 #181621;
+    }
+}
+
+.modal-content {
+    background-color: #181621 !important;
+    color: white !important;
+}
+
+
+[class*="container5"] {
+    background: linear-gradient(to bottom, #1E1C29, #202046);
+}
+
+#form-button {
+    background: linear-gradient(to right, var(--pink1), var(--pink2));
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+
+#form-button:hover {
+    z-index: 1;
+    transform: scale(1.02);
+    color: white;
+}
+
+[class*="container6"] {
+    background-color: #1E1C29;
+    text-align: center;
+    color: white;
+}
+
+#navbar2 {
+    background-color: #1E1C29;
+}
